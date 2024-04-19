@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+#root, #__next {
+    isolation: isolate;
+}
+a {
+    text-decoration: none;
+    font: inherit;
+    color: inherit;
+}
+.mainContainer{
+    min-width: 90lvw;
+    min-height: 100lvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 350px;
+    padding: 2rem 1rem;
+    margin: 0.5rem auto;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 12%);
+}
+.cardProfilePic{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.cardTitle{
+    font-weight: 600;
+    font-size: 1.625rem;
+    color: hsl(0, 0%, 100%);
+}
+.cardLocationInfo{
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+.cardUserDescription{
+    margin: 1.5rem auto;
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+.cardLinkContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 90%;
+}
+.cardLink{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+}
+.cardLink:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 12%);
+    background-color: hsl(75, 94%, 57%);
+    transition: all ease 500ms;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(0, 0%, 100%);
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
