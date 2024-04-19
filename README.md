@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/JuanMiranda1998/social-links-profile-frontend-mentor)
-- Live Site URL: [Github Pages](https://example.com)
+- Live Site URL: [Github Pages](https://juanmiranda1998.github.io/social-links-profile-frontend-mentor/)
 
 ## My process
 
